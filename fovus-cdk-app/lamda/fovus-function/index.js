@@ -1,33 +1,3 @@
-// const { S3Client, PutObjectCommand } = require('@aws-sdk/client-s3');
-// const { getSignedUrl } = require('@aws-sdk/s3-request-presigner');
-
-// // Initialize the S3 client
-// const s3Client = new S3Client({ region: 'us-east-2' });
-
-// exports.handler = async (event) => {
-//     // Extract fileName from query parameters
-//     const { fileName } = event.queryStringParameters;
-//     const command = new PutObjectCommand({
-//         Bucket: process.env.BUCKET_NAME,
-//         Key: fileName,
-//     });
-
-//     try {
-//         // Generate a pre-signed URL for uploading an S3 object
-//         const url = await getSignedUrl(s3Client, command, { expiresIn: 3600 }); // URL expires in 1 hour
-//         return {
-//             statusCode: 200,
-//             headers: {"Content-Type": "application/json"},
-//             body: JSON.stringify({ url }),
-//         };
-//     } catch (error) {
-//         return {
-//             statusCode: 500,
-//             body: JSON.stringify({ message: "Error creating pre-signed URL", error: error.message }),
-//         };
-//     }
-// };
-
 const { S3Client, GetObjectCommand, PutObjectCommand } = require('@aws-sdk/client-s3');
 const { getSignedUrl } = require('@aws-sdk/s3-request-presigner');
 
