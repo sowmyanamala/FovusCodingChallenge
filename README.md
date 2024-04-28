@@ -92,3 +92,10 @@ Output Screenshots:
 **Adding txt files to AWS bucket:** <br/>
 
 <img width="1294" alt="Screenshot 2024-04-28 at 11 08 43 AM" src="https://github.com/sowmyanamala/FovusCodingChallenge/assets/50576552/33e2bed1-05cf-458b-9601-959d775c2204">
+
+
+**Demo**
+
+
+https://github.com/sowmyanamala/FovusCodingChallenge/assets/50576552/bb1d9b27-6b79-43b9-8feb-13c8f0f8bfa1
+
