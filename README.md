@@ -75,16 +75,20 @@ Add necessary AWS packages
 
 Output Screenshots:
 
-CDK Deployment:
+**CDK Deployment:** <br/>
+
 <img width="565" alt="Screenshot 2024-04-26 at 2 00 50 AM" src="https://github.com/sowmyanamala/FovusCodingChallenge/assets/50576552/7c78655d-732c-4188-8bc3-157fb984770a">
 
-Running the application:
+**Running the application:** <br/>
+
 <img width="566" alt="Screenshot 2024-04-26 at 2 04 19 AM" src="https://github.com/sowmyanamala/FovusCodingChallenge/assets/50576552/c0d0f80c-2d1e-49b3-b0d7-9457daed5a38">
 >
 
-Creating Buckets in AWS:
-<img width="1394" alt="Screenshot 2024-04-28 at 11 05 19 AM" src="https://github.com/sowmyanamala/FovusCodingChallenge/assets/50576552/e62b0665-0bc8-42af-b16f-dea72c611c10"
+**Creating Buckets in AWS:** <br/>
+
+<img width="1394" alt="Screenshot 2024-04-28 at 11 05 19 AM" src="https://github.com/sowmyanamala/FovusCodingChallenge/assets/50576552/e62b0665-0bc8-42af-b16f-dea72c611c10">
 
 
-Adding txt files to AWS bucket:
+**Adding txt files to AWS bucket:** <br/>
+
 <img width="1294" alt="Screenshot 2024-04-28 at 11 08 43 AM" src="https://github.com/sowmyanamala/FovusCodingChallenge/assets/50576552/33e2bed1-05cf-458b-9601-959d775c2204">
