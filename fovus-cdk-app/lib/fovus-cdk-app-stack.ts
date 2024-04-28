@@ -39,19 +39,5 @@ export class FovusCdkAppStack extends Stack {
         allowMethods: apigateway.Cors.ALL_METHODS,
       }
     });
-
-    // // Ensure that deployments and stages are appropriately handled
-    // const deployment = new apigateway.Deployment(this, 'ApiDeployment', {
-    //   api
-    // });
-
-    // // Explicitly create a stage for the deployment
-    // const stage = new apigateway.Stage(this, 'ApiStage', {
-    //   deployment,
-    //   stageName: 'prod'
-    // });
-
-    // // Associate the stage with the API explicitly
-    // api.deploymentStage = stage;
   }
 }
